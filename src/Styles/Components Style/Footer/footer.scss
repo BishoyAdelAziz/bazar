@@ -1,0 +1,58 @@
+footer {
+    background-color: var(--main-color);
+    
+    .container {
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 9px 80px;
+            border-bottom: 3px solid var(--second-color);
+
+            .logo-img {
+                width: 11em
+            }
+
+            .insta {
+                width: 2em;
+            }
+        }
+
+
+        .links {
+            padding: 40px 80px;
+            
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 3em;
+                flex-wrap: wrap;
+
+                li {
+                    color: #FFF;
+                }
+            }
+        }
+
+
+        .rights {
+            background-color: var(--second-color);
+            color: #fff;
+            text-align: center;
+            padding: 7px 0;
+
+            p {
+                margin-bottom: 5px;
+
+                a {
+                    cursor: pointer;
+                    b {
+                        color: var(--main-color)
+                    }
+                }
+            }
+        }
+    }
+}

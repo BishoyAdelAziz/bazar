@@ -1,0 +1,68 @@
+*{margin:0; padding:0; font-family: 'Alexandria'}
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+:root {
+    --main-color: #E86B34;
+    --opc-main-color: #e68e68;
+    --second-color: #3F5843;
+    --opc-second-color: #869688;
+}
+
+a{text-decoration: none;}
+ul {list-style: none;}
+p {line-height: 1.6em;}
+
+// Classes
+.disNone {display: none;}
+.disBlock {display: block;}
+.disFlex {display: flex;}
+
+.btn {
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 17px;
+    width: 7em;
+    height: 2.1em;
+
+    &:hover {
+        cursor: pointer;
+        opacity: .9
+    }
+}
+
+.title {
+    max-width: fit-content;
+
+    h2 {
+        position: relative;
+        width: fit-content;
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            right: 0;
+            background-color: var(--main-color);
+            width: 60%;
+            height: 4px;
+        }
+
+        b {
+            color: var(--main-color)
+        }
+    }
+
+    p {
+        font-size: 18px;
+        margin-top: 13px;
+        max-width: 600px;
+
+        b {
+            color: var(--main-color)  
+        }
+    }
+}

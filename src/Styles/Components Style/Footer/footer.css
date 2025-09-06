@@ -1,0 +1,44 @@
+footer {
+  background-color: var(--main-color);
+}
+footer .container .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 80px;
+  border-bottom: 3px solid var(--second-color);
+}
+footer .container .logo .logo-img {
+  width: 11em;
+}
+footer .container .logo .insta {
+  width: 2em;
+}
+footer .container .links {
+  padding: 40px 80px;
+}
+footer .container .links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  flex-wrap: wrap;
+}
+footer .container .links ul li {
+  color: #FFF;
+}
+footer .container .rights {
+  background-color: var(--second-color);
+  color: #fff;
+  text-align: center;
+  padding: 7px 0;
+}
+footer .container .rights p {
+  margin-bottom: 5px;
+}
+footer .container .rights p a {
+  cursor: pointer;
+}
+footer .container .rights p a b {
+  color: var(--main-color);
+}/*# sourceMappingURL=footer.css.map */
